@@ -1,6 +1,6 @@
 # NewsHub
 
-A new Flutter project.
+News flutter app using news Api.
 
 ## Getting Started
 
