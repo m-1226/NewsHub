@@ -16,11 +16,14 @@ class CustomLoading extends StatelessWidget {
     return Shimmer.fromColors(
       baseColor: Colors.grey,
       highlightColor: Colors.white,
-      child: Container(
-        width: width,
-        height: height,
-        decoration: const BoxDecoration(
-          color: Colors.black,
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(6),
+        child: Container(
+          width: width,
+          height: height,
+          decoration: const BoxDecoration(
+            color: Colors.black,
+          ),
         ),
       ),
     );
