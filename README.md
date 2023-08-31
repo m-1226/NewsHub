@@ -2,15 +2,13 @@
 
 News flutter app using news Api.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- ✔️ HomeView shows the top latest news
+- ✔️ News category from cateogries list
+- ✔️ WebView for opening the news in the app
 
-A few resources to get you started if this is your first Flutter project:
+## ScreenShots
+![Alt text](HomeView.jpg)![Alt text](CategoryView.jpg)![Alt text](WebView.jpg)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
