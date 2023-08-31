@@ -17,11 +17,11 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         children: [
           Text(
             'News',
-            style: TextStyle(color: Colors.black),
+            style: TextStyle(color: Colors.black, fontSize: 30),
           ),
           Text(
             'Hub',
-            style: TextStyle(color: Colors.orange),
+            style: TextStyle(color: Colors.orange, fontSize: 30),
           ),
         ],
       ),

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/models/article_model.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:news_app/views/web_view.dart';
 import 'package:news_app/widgets/custom_loading.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 // cached network image
 class NewsTile extends StatelessWidget {
@@ -18,7 +18,15 @@ class NewsTile extends StatelessWidget {
           borderRadius: BorderRadius.circular(6),
           child: GestureDetector(
             onTap: () {
-              launchUrl(Uri.parse(articleModel.url));
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => WebViewScreen(
+                    url: articleModel.url,
+                    source: articleModel.source,
+                  ),
+                ),
+              );
             },
             child: CachedNetworkImage(
               imageUrl: articleModel.image ??

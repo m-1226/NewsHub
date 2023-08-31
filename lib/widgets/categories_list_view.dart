@@ -29,6 +29,10 @@ class CategoriesListView extends StatelessWidget {
       image: 'assets/entertaiment.avif',
       categoryName: 'Entertainment',
     ),
+    CategoryModel(
+      image: 'assets/sports.jpg',
+      categoryName: 'Sports',
+    ),
   ];
   @override
   Widget build(BuildContext context) {

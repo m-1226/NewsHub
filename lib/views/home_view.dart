@@ -16,7 +16,14 @@ class HomeView extends StatelessWidget {
         child: CustomScrollView(
           physics: BouncingScrollPhysics(),
           slivers: [
-            SliverToBoxAdapter(child: CategoriesListView()),
+            SliverToBoxAdapter(
+              child: SizedBox(
+                height: 16,
+              ),
+            ),
+            SliverToBoxAdapter(
+              child: CategoriesListView(),
+            ),
             SliverToBoxAdapter(
               child: SizedBox(
                 height: 32,
