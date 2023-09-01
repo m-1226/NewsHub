@@ -9,6 +9,5 @@ News flutter app using news Api.
 - ✔️ WebView for opening the news in the app
 
 ## ScreenShots
-![Alt text](HomeView.jpg)![Alt text](CategoryView.jpg)![Alt text](WebView.jpg)
-
-
+![Alt text](screenshots/HomeView.jpg)![Alt text](screenshots/CategoryView.jpg)
+![Alt text](screenshots/WebView.jpg)
